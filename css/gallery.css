@@ -1,0 +1,42 @@
+.gallery{
+    margin: 30px 0;
+}
+
+.gallery .border-bottom {
+    width: 10%;
+    height: 2px;
+    margin: 5px auto auto;
+}
+
+.gallery .gallery-inner{
+    margin: 20px -10px 0;
+}
+
+._df_thumb{
+    height: 270px;
+    width: calc(20% - 20px);
+}
+
+._df_book-cover{
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .24);
+}
+
+@media only screen and (max-width: 992px) {
+    ._df_thumb {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    ._df_thumb {
+        height: 200px;
+        width: calc(50% - 20px);
+        margin: 15px 10px 10px;
+    }
+
+    .gallery .title-wrap h2{
+        font-size: 22px;
+    }
+}
