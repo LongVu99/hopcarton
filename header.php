@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="css/base-style.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style-m.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
@@ -26,38 +27,40 @@
 </head>
 
 <body>
-    <header class="fs-12 text-dark">
+    <div class=" header fs-12 text-dark">
         <!-- Header -->
-        <div class="container header-top py-4">
-            <div class="row justify-content-between align-items-center">
+        <div class="header-top py-3 position-relative">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
 
-                <div class="col-5">
-                    <p class="text-white">Chuyên Sản Xuất Và In Ấn Hộp Carton Đóng Hàng Giá Rẻ Theo Yêu Cầu</p>
-                </div>
+                    <div class="col-5">
+                        <p class="text-white m-0">Chuyên Sản Xuất Và In Ấn Hộp Carton Đóng Hàng Giá Rẻ Theo Yêu Cầu</p>
+                    </div>
 
-                <div class="col-3">
-                    <img src="icons/search-icon.svg" alt="Nút search" width="25">
-                    Call/Zalo: <a href="">0292.7777.769</a>
-                </div>
-                <div class="col-4">
-                    <div class="row">
-                        <div class="col-4">
-                            <a class="text-warning" href="tel:0889736889">
-                           
-                                <span class="ms-1 fs-15 fw-500">Giới thiệu</span>
-                            </a>
-                        </div>
-                        <div class="col-4 content-top-bar d-none d-lg-block">
-                            <a class="text-warning " href="">
-                            
-                                <span class="ms-1 fs-15 fw-500">Blog</span>
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <a class="cart text-white ">
-                            <span class="ms-1 fs-15 fw-500">Liên hệ</span>
+                    <div class="col-3 d-flex text-white fs-16 fw-700 align-items-center justify-content-end">
+                        <img src="icons/search-icon.svg" alt="Nút search" width="25">
+                        Call/Zalo: <a href="#" class="text-warning ms-1"> 0292.7777.769</a>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="d-flex gap-3 justify-content-end">
+                                <div class="">
+                                    <a class="text-warning" href="tel:0889736889">
+                                        <span class="ms-1 fs-15 fw-500">Giới thiệu</span>
+                                    </a>
+                                </div>
+                                <div class=" content-top-bar d-none d-lg-block">
+                                    <a class="text-warning " href="">
+                                        <span class="ms-1 fs-15 fw-500">Blog</span>
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <a class="cart text-white ">
+                                        <span class="ms-1 fs-15 fw-500">Liên hệ</span>
 
-                            </a>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,42 +69,34 @@
 
         <!-- Main Menu -->
         <nav class="menu container d-md-none d-lg-flex justify-content-between align-items-center">
-            <div class="menu-wrap">
+            <div class="menu-wrap d-flex align-items-center">
                 <ul>
                     <li>
                         <a href="#">
-                            <img src="images/logo.svg" width="100" height="auto">
+                            <img src="images/logo.svg" width="80" height="auto">
                         </a>
-
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="#">HỘP CARTON</a>
-                    </li>
-                    <li>
-                        <a href="#">THÙNG CARTON<img src="icons/triangle-down-icon.svg" width="15"></a>
+                        <a href="#" class="fw-700 text-gray">HỘP CARTON</a>
                         <ul>
-                            <li>
-                                <a href="#">In Hộp Giấy</a>
-                                <ul>
-                                    <li>
-                                        <a href="">In Hộp Yến</a>
-                                    </li>
-                                    <li>
-                                        <a href="">In Hộp Yến</a>
-                                    </li>
-                                    <li>
-                                        <a href="">In Hộp Yến</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">In Túi Giấy</a></li>
-                            <li><a href="#">In Hộp Yến</a></li>
+                            <li><a href="#">Hộp carton lớn</a></li>
+                            <li><a href="#">Hộp carton lớn</a></li>
+                            <li><a href="#">Hộp carton lớn</a></li>
+
                         </ul>
                     </li>
                     <li>
-                        <a href="#">XỐP CHỐNG SỐC<img src="icons/triangle-down-icon.svg" width="15"></a>
+                        <a href="#" class="fw-700 text-gray">THÙNG CARTON</a>
+                        <ul>
+                            <li><a href="#">Thùng carton lớn</a></li>
+                            <li><a href="#">Thùng carton 7 lớp</a></li>
+                            <li><a href="#">Thùng carton 5 lớp</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="fw-700 text-gray">XỐP CHỐNG SỐC</a>
                         <ul>
                             <li>
                                 <a href="#">GIỚI THIỆU</a>
@@ -114,9 +109,22 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="#">BĂNG KEO</a></li>
+                    <li><a href="#" class="fw-700 text-gray">BĂNG KEO</a>
+                        <ul>
+                            <li>
+                                <a href="#">GIỚI THIỆU</a>
+                            </li>
+                            <li>
+                                <a href="#">HỒ SƠ NĂNG LỰC</a>
+                            </li>
+                            <li>
+                                <a href="#">LỜI MỜI HỢP TÁC</a>
+                            </li>
+                        </ul>
+                    </li>
+
                     <li>
-                        <a href="#">MÀNG BE<img src="icons/triangle-down-icon.svg" width="15"></a>
+                        <a href="#" class="fw-700 text-gray">MÀNG BE</a>
                         <ul>
                             <li>
                                 <a href="#">FACEBOOK</a>
@@ -132,8 +140,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="#">IN ẤN THEO YÊU CẦU</a></li>
-                    <li><a href="#">BÁO GIÁ</a></li>
+                    <li><a href="#" class="fw-700 text-gray">IN ẤN THEO YÊU CẦU</a></li>
+                    <li><a href="#" class="fw-700 text-gray">BÁO GIÁ</a></li>
                     <li>
                         <img src="" alt="">
                     </li>
@@ -149,7 +157,7 @@
                 BẬT</button>
 
         </nav>
-    </header>
+    </div>
 
     <section class="menu-m d-none position-fixed top-0 bottom-0 start-0 bg-white opacity-0 visibility-hidden overflow-hidden">
         <div class="logo">
