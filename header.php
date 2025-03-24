@@ -69,8 +69,8 @@
 
         <!-- Main Menu -->
         <div class="menu position-relative">
-            <div class=" container d-md-none d-lg-flex justify-content-between align-items-center">
-                <div class="menu-wrap d-flex align-items-center">
+            <div class=" container d-md-none d-lg-block">
+                <div class="menu-wrap d-flex align-items-center justify-content-between">
                     <ul>
                         <li>
                             <a href="index.php">
@@ -143,25 +143,21 @@
                         </li>
                         <li><a href="#" class="fw-700 text-gray">IN ẤN THEO YÊU CẦU</a></li>
                         <li><a href="#" class="fw-700 text-gray">BÁO GIÁ</a></li>
-                        <li>
-                            <img src="" alt="">
-                        </li>
-                        <li>
-                            <img src="" alt="">
-                        </li>
+
                     </ul>
+                    <div class="d-flex gap-5 icon-cart-heart">
+                        <li>
+                            <img src="images/heart1.png" alt="" height="25" width="25">
+                            <span class="number-heart position-absolute text-white fs-14 border-radius-50 d-inline-flex align-items-center justify-content-center fw-400">0</span>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/shopping-bag.png" alt="" height="25" width="25"></a>
+                            <span class="numer-cart position-absolute text-white fs-14 border-radius-50 d-inline-flex align-items-center justify-content-center fw-400">0</span>
+                        </li>
+                    </div>
                 </div>
 
-                <div class="d-flex gap-5 icon-cart-heart">
-                    <li>
-                        <img src="images/heart1.png" alt="" height="25" width="25">
-                        <span class="number-heart position-absolute text-white fs-14 border-radius-50 d-inline-flex align-items-center justify-content-center fw-400">0</span>
-                    </li>
-                    <li>
-                        <a href=""><img src="images/shopping-bag.png" alt="" height="25" width="25"></a>
-                        <span class="numer-cart position-absolute text-white fs-14 border-radius-50 d-inline-flex align-items-center justify-content-center fw-400">0</span>
-                    </li>
-                </div>
+
 
             </div>
         </div>

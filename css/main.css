@@ -266,6 +266,12 @@
     .list-product-archive {
         grid-template-columns: repeat(4, 1fr);
     }
+    .img-produce:nth-of-type(n+4) {
+        border-top: 1px solid rgb(255 255 255 / 20%);
+    }
+    .achievements-content:nth-of-type(n+3){
+        border-top: 1px solid rgb(255 255 255 / 20%);
+    }
 }
 
 @media (max-width: 767px) {
@@ -274,6 +280,7 @@
     .list-product-archive {
         grid-template-columns: repeat(3, 1fr);
     }
+    
 }
 @media (max-width: 360px) {
     .list-product-bestseller,
