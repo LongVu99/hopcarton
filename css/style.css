@@ -756,16 +756,27 @@ header.affix .menu-wrap > ul > li{
     /* category-detail.css*/
     /* breadcrumb */
 
+    .breadcrumb {
+        margin: 10px 0;
+    }
+    .breadcrumb ul {
+        display: flex;
+        align-items: center;
+    }
+    
   .breadcrumb li+li:before {
     padding: 8px;
     content: "/\00a0";
   }
   .breadcrumb  li a {
+    display: flex;
+    align-items: center;
     color: #70757a;
   }
   .breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
+    color: var(--primary-color);
+    cursor: pointer;
+    text-decoration: none;
   }
   /* category */
   .category-page .border-bottom {
