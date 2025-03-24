@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="col-3 d-flex text-white fs-16 fw-700 align-items-center justify-content-end">
-                        <img src="icons/search-icon.svg" alt="Nút search" width="25">
+                        <img src="images/share.png" alt="Nút search" width="18">
                         Call/Zalo: <a href="#" class="text-warning ms-1"> 0292.7777.769</a>
                     </div>
                     <div class="col-4">
@@ -68,95 +68,103 @@
         </div>
 
         <!-- Main Menu -->
-        <nav class="menu container d-md-none d-lg-flex justify-content-between align-items-center">
-            <div class="menu-wrap d-flex align-items-center">
-                <ul>
-                    <li>
-                        <a href="index.php">
-                            <img src="images/logo.svg" width="80" height="auto">
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#" class="fw-700 text-gray">HỘP CARTON</a>
-                        <ul>
-                            <li><a href="#">Hộp carton lớn</a></li>
-                            <li><a href="#">Hộp carton lớn</a></li>
-                            <li><a href="#">Hộp carton lớn</a></li>
+        <div class="menu position-relative">
+            <div class=" container d-md-none d-lg-flex justify-content-between align-items-center">
+                <div class="menu-wrap d-flex align-items-center">
+                    <ul>
+                        <li>
+                            <a href="index.php">
+                                <img src="images/logo.svg" width="80" height="auto">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#" class="fw-700 text-gray">HỘP CARTON</a>
+                            <ul>
+                                <li><a href="#">Hộp carton lớn</a></li>
+                                <li><a href="#">Hộp carton lớn</a></li>
+                                <li><a href="#">Hộp carton lớn</a></li>
 
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#" class="fw-700 text-gray">THÙNG CARTON</a>
-                        <ul>
-                            <li><a href="#">Thùng carton lớn</a></li>
-                            <li><a href="#">Thùng carton 7 lớp</a></li>
-                            <li><a href="#">Thùng carton 5 lớp</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#" class="fw-700 text-gray">XỐP CHỐNG SỐC</a>
-                        <ul>
-                            <li>
-                                <a href="#">GIỚI THIỆU</a>
-                            </li>
-                            <li>
-                                <a href="#">HỒ SƠ NĂNG LỰC</a>
-                            </li>
-                            <li>
-                                <a href="#">LỜI MỜI HỢP TÁC</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#" class="fw-700 text-gray">BĂNG KEO</a>
-                        <ul>
-                            <li>
-                                <a href="#">GIỚI THIỆU</a>
-                            </li>
-                            <li>
-                                <a href="#">HỒ SƠ NĂNG LỰC</a>
-                            </li>
-                            <li>
-                                <a href="#">LỜI MỜI HỢP TÁC</a>
-                            </li>
-                        </ul>
-                    </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="fw-700 text-gray">THÙNG CARTON</a>
+                            <ul>
+                                <li><a href="#">Thùng carton lớn</a></li>
+                                <li><a href="#">Thùng carton 7 lớp</a></li>
+                                <li><a href="#">Thùng carton 5 lớp</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="fw-700 text-gray">XỐP CHỐNG SỐC</a>
+                            <ul>
+                                <li>
+                                    <a href="#">GIỚI THIỆU</a>
+                                </li>
+                                <li>
+                                    <a href="#">HỒ SƠ NĂNG LỰC</a>
+                                </li>
+                                <li>
+                                    <a href="#">LỜI MỜI HỢP TÁC</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="fw-700 text-gray">BĂNG KEO</a>
+                            <ul>
+                                <li>
+                                    <a href="#">GIỚI THIỆU</a>
+                                </li>
+                                <li>
+                                    <a href="#">HỒ SƠ NĂNG LỰC</a>
+                                </li>
+                                <li>
+                                    <a href="#">LỜI MỜI HỢP TÁC</a>
+                                </li>
+                            </ul>
+                        </li>
 
+                        <li>
+                            <a href="#" class="fw-700 text-gray">MÀNG BE</a>
+                            <ul>
+                                <li>
+                                    <a href="#">FACEBOOK</a>
+                                </li>
+                                <li>
+                                    <a href="#">ZALO</a>
+                                </li>
+                                <li>
+                                    <a href="#">TIKTOK</a>
+                                </li>
+                                <li>
+                                    <a href="#">INSTAGRAM</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="fw-700 text-gray">IN ẤN THEO YÊU CẦU</a></li>
+                        <li><a href="#" class="fw-700 text-gray">BÁO GIÁ</a></li>
+                        <li>
+                            <img src="" alt="">
+                        </li>
+                        <li>
+                            <img src="" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-flex gap-5 icon-cart-heart">
                     <li>
-                        <a href="#" class="fw-700 text-gray">MÀNG BE</a>
-                        <ul>
-                            <li>
-                                <a href="#">FACEBOOK</a>
-                            </li>
-                            <li>
-                                <a href="#">ZALO</a>
-                            </li>
-                            <li>
-                                <a href="#">TIKTOK</a>
-                            </li>
-                            <li>
-                                <a href="#">INSTAGRAM</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#" class="fw-700 text-gray">IN ẤN THEO YÊU CẦU</a></li>
-                    <li><a href="#" class="fw-700 text-gray">BÁO GIÁ</a></li>
-                    <li>
-                        <img src="" alt="">
+                        <img src="images/heart1.png" alt="" height="25" width="25">
+                        <span class="number-heart position-absolute text-white fs-14 border-radius-50 d-inline-flex align-items-center justify-content-center fw-400">0</span>
                     </li>
                     <li>
-                        <img src="" alt="">
+                        <a href=""><img src="images/shopping-bag.png" alt="" height="25" width="25"></a>
+                        <span class="numer-cart position-absolute text-white fs-14 border-radius-50 d-inline-flex align-items-center justify-content-center fw-400">0</span>
                     </li>
-                </ul>
+                </div>
+
             </div>
-
-            <button
-                class="menu-btn fw-500 p-2 fs-16 text-black border-0 cursor-pointer d-flex align-items-center justify-content-center gap-3"><img
-                    src="icons/video-library-icon.svg" width="20" class="pb-1"> VIDEO NỔI
-                BẬT</button>
-
-        </nav>
+        </div>
     </div>
 
     <section class="menu-m d-none position-fixed top-0 bottom-0 start-0 bg-white opacity-0 visibility-hidden overflow-hidden">

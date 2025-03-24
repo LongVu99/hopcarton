@@ -76,6 +76,17 @@ $(document).ready(function () {
 
         updateCarousel();
     });
+    
+    $(document).on('scroll', function() {
+        var menu = $('.menu');
+        if ($(window).scrollTop() > 300) {
+            menu.addClass('fixed');
+        }
+        if ($(window).scrollTop() === 0) {
+            menu.removeClass('fixed');
+        }
+    });
+    
 
     // Ngăn chặn chọn văn bản khi kéo
     carouselWrapper.on("dragstart", function (event) {
