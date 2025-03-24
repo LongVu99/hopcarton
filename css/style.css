@@ -766,7 +766,7 @@ header.affix .menu-wrap > ul > li{
   .breadcrumb  li a {
     display: flex;
     align-items: center;
-    color: #70757a;
+    color: #00b46c;
   }
   .breadcrumb li a:hover {
     color: var(--primary-color);
