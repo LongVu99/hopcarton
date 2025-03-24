@@ -39,8 +39,8 @@
             </section>
             <section class="section box-share pt-5 ">
                 <div class="container">
-                    <div class="text-share d-flex">
-                        <img src="images/brand.png" alt="brand" width="50px" height="50px">
+                    <div class="text-share d-flex align-items-center">
+                        <img src="images/brand.png" alt="brand" width="100px" height="100px" class="d-inline-block">
                         <p class="fs-20 fs-sm-16">Với phương châm hoạt động <strong>"Sẻ chia để thành công"</strong>, công ty Dao Carton luôn ưu tiên chất lượng sản xuất lên hàng đầu, mang đến những sản phẩm hộp carton chất lượng cao, đáp ứng nhu cầu đa dạng của khách hàng.
                             <br>Chúng tôi cam kết chia sẻ và đồng hành cùng sự thành công của khách hàng.
                         </p>
@@ -65,36 +65,36 @@
                     </div>
                 </div>
             </section>
-            <section class="section box-produce text-center py-4">
+            <section class="section box-produce text-center">
                 <div class="row gx-0">
                     <div class="col-12">
                         <div class="heading-box-produce">
-                            <h4 class="text-white">QUY TRÌNH ĐẶT IN HỘP CARTON THEO YÊU CẦU</h4>
+                            <h4 class="text-white m-0 py-4">QUY TRÌNH ĐẶT IN HỘP CARTON THEO YÊU CẦU</h4>
                         </div>
                         <div class="produce-step row gx-0">
-                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
                                 <img src="images/icon-research-9468.webp" alt="">
-                                <p class="text-white fs-18">TIẾP NHẬN <br> YÊU CẦU</p>
+                                <p class="text-white fs-18 fw-700">TIẾP NHẬN <br> YÊU CẦU</p>
                             </div>
-                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
                                 <img src="images/icon-design-9787.webp" alt="">
-                                <p class="text-white fs-18">THIẾT KẾ <br> BÁO GIÁ</p>
+                                <p class="text-white fs-18 fw-700">THIẾT KẾ <br> BÁO GIÁ</p>
                             </div>
-                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
                                 <img src="images/icon-custome-243.webp" alt="">
-                                <p class="text-white fs-18">KÝ KẾT <br> HỢP ĐỒNG</p>
+                                <p class="text-white fs-18 fw-700">KÝ KẾT <br> HỢP ĐỒNG</p>
                             </div>
-                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
                                 <img src="images/laser-marking-1-8579.webp" alt="">
-                                <p class="text-white fs-18">SẢN XUẤT <br> IN ẤN</p>
+                                <p class="text-white fs-18 fw-700">SẢN XUẤT <br> IN ẤN</p>
                             </div>
-                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
                                 <img src="images/san-pham-4405.webp" alt="">
-                                <p class="text-white fs-18">GIAO HÀNG <br> TẬN NƠI</p>
+                                <p class="text-white fs-18 fw-700">GIAO HÀNG <br> TẬN NƠI</p>
                             </div>
-                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
                                 <img src="images/icon-support-7788.webp" alt="">
-                                <p class="text-white fs-18">HỖ TRỢ <br> 8h / 6d</p>
+                                <p class="text-white fs-18 fw-700">HỖ TRỢ <br> 8h / 6d</p>
                             </div>
 
                         </div>
@@ -115,27 +115,27 @@
                                 <h4 class="fs-30 fs-sm-22">Những sản phẩm của Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton</h4>
                             </div>
                             <div class="produce-step row gx-0">
-                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
                                     <img src="images/cate-1.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Hộp Carton</p>
                                 </div>
-                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
                                     <img src="images/cate-2.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Thùng Carton</p>
                                 </div>
-                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
                                     <img src="images/cate-3.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Xốp Chống Sốc</p>
                                 </div>
-                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
                                     <img src="images/cate-4.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Băng Keo</p>
                                 </div>
-                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
                                     <img src="images/cate-5.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Màng PE</p>
                                 </div>
-                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
                                     <img src="images/cate-6.webp" alt="">
                                     <p class="text-green fs-18 mt-2">In Ấn Theo Yêu Cầu</p>
                                 </div>

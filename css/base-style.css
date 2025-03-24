@@ -444,6 +444,9 @@ video{
     width: 100%;
     height: auto;
 }
+.place-items-center{
+    place-items: center;
+}
 
 /* Position  */
 .position-relative{
