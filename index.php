@@ -11,8 +11,8 @@
 <body>
     <?php include('header.php') ?>
     <main>
-        <div class="home-page">
-            <section class="row section sc-box-banner">
+        <div class="home-page w-100">
+            <section class="row gx-0 section sc-box-banner">
                 <div class="col-12">
                     <div class="banner-home">
                         <div class="custom_slider m-0 banner-home-carton" data-slides-to-show="1" data-slides-to-scroll="1" data-slides-to-show-tablet="1" data-slides-to-show-mobile="1">
@@ -52,7 +52,7 @@
                         <div class="img-share-r">
                             <iframe title="" allowfullscreen style="border:none;" width="500" height="500" src="https://www.pacdora.com/fr/share?filter_url=ps74k0s0gx"></iframe>
                             <div class="box-text-share">
-                                <div class="text-share-slider">
+                                <div class="text-share-slider position-absolute">
                                     <p class="fs-28 text-green d-block">Tiếp nhận yêu cầu và hỗ trợ tận tâm</p>
                                     <p class="fs-28 text-green d-block">Chất lượng sản phẩm hàng đầu</p>
                                     <p class="fs-28 text-green d-block">Sản xuất trực tiếp tại xưởng</p>
@@ -64,7 +64,7 @@
                 </div>
             </section>
             <section class="section box-produce text-center py-4">
-                <div class="row">
+                <div class="row gx-0">
                     <div class="col-12">
                         <div class="heading-box-produce">
                             <h4 class="text-white">QUY TRÌNH ĐẶT IN HỘP CARTON THEO YÊU CẦU</h4>
@@ -107,7 +107,7 @@
 
             <section class="section box-category-carton text-center py-5">
                 <div class="container">
-                    <div class="row">
+                    <div class="row gx-0">
                         <div class="col-12">
                             <div class="heading-box-produce">
                                 <h4 class="fs-30">Những sản phẩm của Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton</h4>
@@ -202,12 +202,12 @@
                                     <input type="text" placeholder="Số điện thoại kết nối Zalo..." class="py-3 px-5">
                                 </form>
                             </div>
-                            <button class="btn btn-register mt-3 py-3 px-5 fs-20 text-white fw-700"><img src="IMAGES/sign-in.png" alt="" width="20" height="auto"> ĐĂNG KÝ HỘI VIÊN</button>
+                            <button class="btn btn-register mt-3 py-3 px-5 fs-20 text-white fw-700 border-radius-50"><img src="IMAGES/sign-in.png" alt="" width="20" height="auto"> ĐĂNG KÝ HỘI VIÊN</button>
                         </div>
                     </div>
                     <div class="achievements py-3">
                         <div class="container">
-                            <div class="row">
+                            <div class="row gx-0">
                                 <div class=" col-3 p-3 achievements-content">
                                     <img src="images/icon-achievements-8887.webp" alt="">
                                     <div class="fs-30 text-white">20K+</div>
@@ -241,14 +241,14 @@
                         <p class="text-center">Cảm ơn khách hàng yêu quý của chúng tôi đã chia sẻ lời chứng thực của họ với chúng tôi. Đừng nghe chúng tôi nói tốt về mình, hãy nghe khách hàng nói về chúng tôi!</p>
                     </div>
 
-                    <div class="feedback wrap-content-feedback custom_slider d-flex w-100 flex-wrap row" data-slides-to-show="3"
+                    <div class="feedback wrap-content-feedback custom_slider d-flex w-100 flex-wrap row gx-0" data-slides-to-show="3"
                         data-slides-to-scroll="1" data-slides-to-show-tablet="2" data-slides-to-show-mobile="1">
                         <div class="col-4 box-feedback-carton box-feedback position-relative">
                             <p class="text-line-clamp-3 ps-3 text-justify fs-15">“Mình đã đặt hàng ở đây rất nhiều, từ thùng carton, xốp chống sốc,
                                 cả băng keo, lần nào cũng được hỗ trợ rất nhiệt tình.
                                 Rất hài lòng về dịch vụ cũng như chất lượng sản phẩm của Dao Carton”
                             </p>
-                            <ul class="row  pt-3">
+                            <ul class="row gx-0  pt-3">
                                 <li class="col-3">
                                     <img src="images/img-feadback.jpg" alt="">
                                 </li>
@@ -263,7 +263,7 @@
                                 Được bạn giới thiệu Dao Carton nên trải nghiệm sản phẩm ở đây và quyết định sẽ gắn bó lâu dài.
                                 Ưu đãi rất nhiều khi mình mua số lượng lớn ”
                             </p>
-                            <ul class="row  pt-3">
+                            <ul class="row gx-0  pt-3">
                                 <li class="col-3">
                                     <img src="images/img-feadback.jpg" alt="">
                                 </li>
@@ -278,7 +278,7 @@
                                 Không ngờ giá rẻ mà xốp lại chất lượng như vậy. Sẽ mua thử thùng carton, và băng keo ở đây nữa.
                                 Chắc sẽ gắn bó lâu dài vì giúp mình tối ưu rất nhiều chi phí.”
                             </p>
-                            <ul class="row  pt-3">
+                            <ul class="row gx-0  pt-3">
                                 <li class="col-3">
                                     <img src="images/img-feadback.jpg" alt="">
                                 </li>
@@ -294,7 +294,7 @@
                                 Họ có thể tùy chỉnh kích thước, hình dạng và màu sắc của hộp carton theo bất kỳ yêu
                                 cầu nào.”
                             </p>
-                            <ul class="row  pt-3">
+                            <ul class="row gx-0  pt-3">
                                 <li class="col-3">
                                     <img src="images/img-feadback.jpg" alt="">
                                 </li>
@@ -309,7 +309,7 @@
                                 Hupuna có khả năng sản xuất hàng loạt hộp carton trong thời gian ngắn mà không ảnh
                                 hưởng đến chất lượng.”
                             </p>
-                            <ul class="row  pt-3">
+                            <ul class="row gx-0  pt-3">
                                 <li class="col-3">
                                     <img src="images/img-feadback.jpg" alt="">
                                 </li>

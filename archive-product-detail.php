@@ -146,24 +146,82 @@
                                     <p>- Thiết kế tiện lợi, dễ dàng gấp gọn, giúp tiết kiệm thời gian đóng gói.</p>
                                 </div>
                                 <div class="feadback-product-detail">
-                                    <h2 class="text-green fs-24">Đánh giá và nhận xét sản phẩm "Hộp carton 10x6x6 cm giá rẻ"</h2>
-                                    <div class="row">
+                                    <h2 class="text-green fs-24 pb-2">Đánh giá và nhận xét sản phẩm "Hộp carton 10x6x6 cm giá rẻ"</h2>
+                                    <div class="row mt-4">
                                         <div class="col-12">
                                             <div class="row">
                                                 <div class="col-3 text-center">
                                                     <p>Đánh giá trung bình</p>
-                                                    <p class="fs-40"><strong>0/5</strong></p>
+                                                    <p class="fs-40 text-danger"><strong>0/5</strong></p>
                                                     <div class="d-flex justify-content-center star-feadback">
-                                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                                        <img class="star" src="./icons/starblue.svg" alt="star">
+                                                        <img class="star" src="./icons/star.svg" alt="star">
+                                                        <img class="star" src="./icons/star.svg" alt="star">
+                                                        <img class="star" src="./icons/star.svg" alt="star">
+                                                        <img class="star" src="./icons/star.svg" alt="star">
                                                         <img class="star" src="./icons/star.svg" alt="star">
                                                     </div>
-                                                    <p class="py-3">(0 nhận xét)</p>
+                                                    <p class="py-2">(0 nhận xét)</p>
                                                 </div>
-                                                <div class="col-5">abc</div>
-                                                <div class="col-4">abc</div>
+                                                <div class="col-5">
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div class="star-number star-feadback d-flex align-items-center">
+                                                            <span class="fs-20 fw-700">5</span>
+                                                            <img src="./icons/starblue.svg" alt="">
+                                                        </div>
+                                                        <div class="line-feabback w-100">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="fw-700">0%</div>
+                                                    </div>
+                                                    <div class="d-flex gap-3 align-items-center py-1">
+                                                        <div class="star-number star-feadback d-flex align-items-center">
+                                                            <span class="fs-20 fw-700">4</span>
+                                                            <img src="./icons/starblue.svg" alt="">
+                                                        </div>
+                                                        <div class="line-feabback w-100">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="fw-700">0%</div>
+                                                    </div>
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div class="star-number star-feadback d-flex align-items-center">
+                                                            <span class="fs-20 fw-700">3</span>
+                                                            <img src="./icons/starblue.svg" alt="">
+                                                        </div>
+                                                        <div class="line-feabback w-100">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="fw-700">0%</div>
+                                                    </div>
+                                                    <div class="d-flex gap-3 align-items-center py-1">
+                                                        <div class="star-number star-feadback d-flex align-items-center">
+                                                            <span class="fs-20 fw-700">2</span>
+                                                            <img src="./icons/starblue.svg" alt="">
+                                                        </div>
+                                                        <div class="line-feabback w-100">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="fw-700">0%</div>
+                                                    </div>
+                                                    <div class="d-flex gap-3 align-items-center">
+                                                        <div class="star-number star-feadback d-flex align-items-center">
+                                                            <span class="fs-20 fw-700">1</span>
+                                                            <img src="./icons/starblue.svg" alt="">
+                                                        </div>
+                                                        <div class="line-feabback w-100">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="fw-700">0%</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                                    <div class="">
+                                                        <p>Chia sẻ nhận xét của bạn</p>
+                                                        <div class="btn-feadback btn d-block mt-4">
+                                                            <a href="" class="py-3 px-4 text-black border-radius-50">Viết nhận xét của bạn</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -171,6 +229,19 @@
                             </div>
                         </div>
                         <?php include('sidebar.php') ?>
+                    </div>
+                    <div class="related-product mt-5">
+                        <h3>SẢN PHẨM LIÊN QUAN</h3>
+                        <div class=" list-product-archive d-grid gap-3 text-center pt-3">
+                            <?php for ($i = 0; $i < 20; $i++) : ?>
+                                <div class="list-product pb-2 position-relative">
+                                    <img src="images/product-bang-dinh.jpg" alt="">
+                                    <a href="#" class="fs-16 fw-600 text-line-clamp-2 mb-2 mt-1 text-gray">Băng keo hàng dễ vỡ vàng đen</a>
+                                    <p class="discount-price-product text-green fw-700 m-0 fs-18">9.150₫</p>
+                                    <p class="price-product fw-300 fs-15">16.000₫</p>
+                                </div>
+                            <?php endfor; ?>
+                        </div>
                     </div>
                 </div>
             </div>

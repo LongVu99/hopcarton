@@ -72,7 +72,7 @@
             <div class="menu-wrap d-flex align-items-center">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="index.php">
                             <img src="images/logo.svg" width="80" height="auto">
                         </a>
                     </li>
