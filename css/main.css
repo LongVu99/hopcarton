@@ -232,3 +232,25 @@
 .btn-feadback a{
     background-color: #ffc107;
 }
+@media (max-width: 1024px) {
+    .list-product-bestseller,
+    .list-product-new,
+    .list-product-archive {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .list-product-bestseller,
+    .list-product-new,
+    .list-product-archive {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 360px) {
+    .list-product-bestseller,
+    .list-product-new,
+    .list-product-archive {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

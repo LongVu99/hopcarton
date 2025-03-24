@@ -41,22 +41,24 @@
                 <div class="container">
                     <div class="text-share d-flex">
                         <img src="images/brand.png" alt="brand" width="50px" height="50px">
-                        <p class="fs-20">Với phương châm hoạt động <strong>"Sẻ chia để thành công"</strong>, công ty Dao Carton luôn ưu tiên chất lượng sản xuất lên hàng đầu, mang đến những sản phẩm hộp carton chất lượng cao, đáp ứng nhu cầu đa dạng của khách hàng.
+                        <p class="fs-20 fs-sm-16">Với phương châm hoạt động <strong>"Sẻ chia để thành công"</strong>, công ty Dao Carton luôn ưu tiên chất lượng sản xuất lên hàng đầu, mang đến những sản phẩm hộp carton chất lượng cao, đáp ứng nhu cầu đa dạng của khách hàng.
                             <br>Chúng tôi cam kết chia sẻ và đồng hành cùng sự thành công của khách hàng.
                         </p>
                     </div>
-                    <div class="img-share d-flex pt-5">
-                        <div class="img-share-l">
-                            <img src="images/women-hopcarton.png" alt="img-women">
-                        </div>
-                        <div class="img-share-r">
-                            <iframe title="" allowfullscreen style="border:none;" width="500" height="500" src="https://www.pacdora.com/fr/share?filter_url=ps74k0s0gx"></iframe>
-                            <div class="box-text-share">
-                                <div class="text-share-slider position-absolute">
-                                    <p class="fs-28 text-green d-block">Tiếp nhận yêu cầu và hỗ trợ tận tâm</p>
-                                    <p class="fs-28 text-green d-block">Chất lượng sản phẩm hàng đầu</p>
-                                    <p class="fs-28 text-green d-block">Sản xuất trực tiếp tại xưởng</p>
-                                    <p class="fs-28 text-green d-block">Giao hàng tận nơi nhanh chóng</p>
+                    <div class="img-share pt-5">
+                        <div class="row">
+                            <div class="img-share-l col-lg-6 col-5">
+                                <img src="images/women-hopcarton.png" alt="img-women">
+                            </div>
+                            <div class="img-share-r col-lg-6 col-7">
+                                <iframe title="" allowfullscreen style="border:none;" width="500" height="500" src="https://www.pacdora.com/fr/share?filter_url=ps74k0s0gx"></iframe>
+                                <div class="box-text-share">
+                                    <div class="text-share-slider position-absolute">
+                                        <p class="fs-28 fs-sm-20 text-green d-block">Tiếp nhận yêu cầu và hỗ trợ tận tâm</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block">Chất lượng sản phẩm hàng đầu</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block">Sản xuất trực tiếp tại xưởng</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block">Giao hàng tận nơi nhanh chóng</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -69,28 +71,28 @@
                         <div class="heading-box-produce">
                             <h4 class="text-white">QUY TRÌNH ĐẶT IN HỘP CARTON THEO YÊU CẦU</h4>
                         </div>
-                        <div class="produce-step d-flex">
-                            <div class="col-2 img-produce p-3">
+                        <div class="produce-step row gx-0">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
                                 <img src="images/icon-research-9468.webp" alt="">
                                 <p class="text-white fs-18">TIẾP NHẬN <br> YÊU CẦU</p>
                             </div>
-                            <div class="col-2 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
                                 <img src="images/icon-design-9787.webp" alt="">
                                 <p class="text-white fs-18">THIẾT KẾ <br> BÁO GIÁ</p>
                             </div>
-                            <div class="col-2 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
                                 <img src="images/icon-custome-243.webp" alt="">
                                 <p class="text-white fs-18">KÝ KẾT <br> HỢP ĐỒNG</p>
                             </div>
-                            <div class="col-2 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
                                 <img src="images/laser-marking-1-8579.webp" alt="">
                                 <p class="text-white fs-18">SẢN XUẤT <br> IN ẤN</p>
                             </div>
-                            <div class="col-2 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
                                 <img src="images/san-pham-4405.webp" alt="">
                                 <p class="text-white fs-18">GIAO HÀNG <br> TẬN NƠI</p>
                             </div>
-                            <div class="col-2 img-produce p-3">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce p-3">
                                 <img src="images/icon-support-7788.webp" alt="">
                                 <p class="text-white fs-18">HỖ TRỢ <br> 8h / 6d</p>
                             </div>
@@ -105,35 +107,35 @@
                 </div>
             </section>
 
-            <section class="section box-category-carton text-center py-5">
+            <section class="section box-category-carton text-center py-lg-5 py-3">
                 <div class="container">
                     <div class="row gx-0">
                         <div class="col-12">
                             <div class="heading-box-produce">
-                                <h4 class="fs-30">Những sản phẩm của Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton</h4>
+                                <h4 class="fs-30 fs-sm-22">Những sản phẩm của Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton</h4>
                             </div>
-                            <div class="produce-step d-flex justify-content-between">
-                                <div class=" img-produce p-3">
+                            <div class="produce-step row gx-0">
+                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
                                     <img src="images/cate-1.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Hộp Carton</p>
                                 </div>
-                                <div class=" img-produce p-3">
+                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
                                     <img src="images/cate-2.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Thùng Carton</p>
                                 </div>
-                                <div class=" img-produce p-3">
+                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
                                     <img src="images/cate-3.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Xốp Chống Sốc</p>
                                 </div>
-                                <div class=" img-produce p-3">
+                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
                                     <img src="images/cate-4.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Băng Keo</p>
                                 </div>
-                                <div class=" img-produce p-3">
+                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
                                     <img src="images/cate-5.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Màng PE</p>
                                 </div>
-                                <div class=" img-produce p-3">
+                                <div class="col-lg-2 img-produce p-3 col-md-4 col-4">
                                     <img src="images/cate-6.webp" alt="">
                                     <p class="text-green fs-18 mt-2">In Ấn Theo Yêu Cầu</p>
                                 </div>
@@ -146,7 +148,7 @@
                 <div class="container">
                     <div class="product-bestseller">
                         <div class="heading-product-bestseller">
-                            <h4 class="fs-30 mb-4">Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton bán chạy nhất</h4>
+                            <h4 class="fs-30 mb-4 fs-sm-22">Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton bán chạy nhất</h4>
                         </div>
                         <div class="list-product-bestseller d-grid gap-3">
                             <?php for ($i = 0; $i < 12; $i++) : ?>
@@ -169,7 +171,7 @@
                 <div class="container">
                     <div class="product-bestseller">
                         <div class="heading-product-new te">
-                            <h4 class="fs-30 mb-4">Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton bán chạy nhất</h4>
+                            <h4 class="fs-30 mb-4 fs-sm-22">Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton bán chạy nhất</h4>
                         </div>
                         <div class="list-product-new d-grid gap-3">
                             <?php for ($i = 0; $i < 12; $i++) : ?>
@@ -193,9 +195,9 @@
                     <div class=" bg-content-register py-5">
                         <div class="container">
                             <div class="content-register">
-                                <p class="text-white fs-20">Chúng tôi sẽ chủ động kết nối đến bạn</p>
-                                <h2 class="fs-40 text-white">Hãy đăng ký hội viên nhà Dao Carton</h2>
-                                <p class="text-white fs-30">để được sự ưu tiên đặc biệt nhất <span class="text-black">và nhiều ưu đãi tốt nhất</span>!</p>
+                                <p class="text-white fs-20 fs-sm-16">Chúng tôi sẽ chủ động kết nối đến bạn</p>
+                                <h2 class="fs-40 text-white fs-sm-26">Hãy đăng ký hội viên nhà Dao Carton</h2>
+                                <p class="text-white fs-30 fs-sm-20">để được sự ưu tiên đặc biệt nhất <span class="text-black">và nhiều ưu đãi tốt nhất</span>!</p>
                             </div>
                             <div class="form-register">
                                 <form action="" class="">
@@ -208,22 +210,22 @@
                     <div class="achievements py-3">
                         <div class="container">
                             <div class="row gx-0">
-                                <div class=" col-3 p-3 achievements-content">
+                                <div class=" col-6 col-lg-3 p-3 achievements-content">
                                     <img src="images/icon-achievements-8887.webp" alt="">
                                     <div class="fs-30 text-white">20K+</div>
                                     <p class="text-white fs-16 mt-2"> Hơn 20.000 khách hàng tin dùng sản phẩm và hơn 30% khách hàng là VIP. </p>
                                 </div>
-                                <div class=" col-3 p-3 achievements-content">
+                                <div class=" col-6 col-lg-3 p-3 achievements-content">
                                     <img src="images/icon-achievements1.webp" alt="">
                                     <div class="fs-30 text-white">799+</div>
                                     <p class="text-white fs-16 mt-2"> Đối tác chiến lược, Đại lý phân phối sỉ lẻ trên toàn quốc. </p>
                                 </div>
-                                <div class="col-3 p-3 achievements-content">
+                                <div class="col-6 col-lg-3 p-3 achievements-content">
                                     <img src="images/icon-achievements2.webp" alt="">
                                     <div class="fs-30 text-white">9+</div>
                                     <p class="text-white fs-16 mt-2"> Năm kinh nghiệm thực tiễn của đội ngũ nhân viên giàu năng lực. </p>
                                 </div>
-                                <div class="col-3 p-3 achievements-content">
+                                <div class="col-6 col-lg-3 p-3 achievements-content">
                                     <img src="images/icon-achievements3.webp" alt="">
                                     <div class="fs-30 text-white">10+</div>
                                     <p class="text-white fs-16 mt-2"> Giải thưởng đạt được về thương hiệu uy tín và tầm nhìn phát triển. </p>
@@ -237,7 +239,7 @@
             <section class="section box-feaback py-3">
                 <div class="container">
                     <div class="heading-feedback">
-                        <h2 class="fs-30 text-center">Khách hàng đánh giá gì về Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton?</h2>
+                        <h2 class="fs-30 text-center fs-sm-22">Khách hàng đánh giá gì về Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton?</h2>
                         <p class="text-center">Cảm ơn khách hàng yêu quý của chúng tôi đã chia sẻ lời chứng thực của họ với chúng tôi. Đừng nghe chúng tôi nói tốt về mình, hãy nghe khách hàng nói về chúng tôi!</p>
                     </div>
 
@@ -346,16 +348,18 @@
             </section>
 
             <section class="section box-contact-home py-5">
-                <div class="container d-flex">
-                    <div class="text-contact col-8">
-                        <h2 class="text-white">Liên hệ với chúng tôi</h2>
-                        <p class="text-white pb-2">Hãy liên hệ ngay cho chúng tôi khi có bất kỳ thắc mắc hoặc yêu cầu gì về sản phẩm cũng như dịch vụ của chúng tôi.</p>
-                        <p class="text-white">Và, kể cả sự phàn nàn, sự phẫn nộ của quý khách hàng về sản phẩm hoặc dịch vụ.
-                            Hãy bày tỏ ngay với chúng tôi để được phương án xử lý tốt đẹp nhất.
-                            Chúng tôi cam kết mang lại cho bạn sự hài lòng nhất có thể!</p>
-                    </div>
-                    <div class="col-4 d-flex align-items-center justify-content-center">
-                    <button class="text-green py-3 px-4 fs-20 border-radius-50"><img src="" alt=""> Liên hệ với chúng tôi</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="text-contact col-12 col-lg-8">
+                            <h2 class="text-white">Liên hệ với chúng tôi</h2>
+                            <p class="text-white pb-2">Hãy liên hệ ngay cho chúng tôi khi có bất kỳ thắc mắc hoặc yêu cầu gì về sản phẩm cũng như dịch vụ của chúng tôi.</p>
+                            <p class="text-white">Và, kể cả sự phàn nàn, sự phẫn nộ của quý khách hàng về sản phẩm hoặc dịch vụ.
+                                Hãy bày tỏ ngay với chúng tôi để được phương án xử lý tốt đẹp nhất.
+                                Chúng tôi cam kết mang lại cho bạn sự hài lòng nhất có thể!</p>
+                        </div>
+                        <div class="col-12 col-lg-4 d-block align-items-center justify-content-center d-lg-flex">
+                            <button class="text-green py-3 px-4 fs-20 border-radius-50"><img src="" alt=""> Liên hệ với chúng tôi</button>
+                        </div>
                     </div>
                 </div>
             </section>

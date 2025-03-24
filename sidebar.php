@@ -1,4 +1,4 @@
-<div class="col-3 sidebar-archive px-4">
+<div class="col-3 sidebar-archive px-4 d-lg-block d-none">
     <div class="text-center">
         <h2 class="fs-20">DANH MỤC SẢN PHẨM</h2>
     </div>
