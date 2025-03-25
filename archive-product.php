@@ -9,12 +9,12 @@
                             <div class="title-page">
                                 <h1 class="fs-28">Hộp Carton</h1>
                             </div>
-                            <div class="breadcrumb d-flex align-items-center justify-content-between">
+                            <div class="breadcrumb d-md-flex d-lg-flex d-sm-block align-items-center justify-content-between">
                                 <ul class="d-flex">
                                     <li class="d-inline fs-15"><a href="#" class="d-flex align-items-center"><img src="images/house.png" width="20px" height="auto" alt="">Trang chủ</a></li>
                                     <li class="d-inline fs-15 text-green fw-700">Hộp Carton</li>
                                 </ul>
-                                <div class="select-price">
+                                <div class="select-price d-flex d-lg-block d-md-block justify-content-end mt-2 mt-lg-0 mt-md-0">
                                     <select name="" id="" class="py-2 px-4 fs-16 text-white">
                                         <option value="">Sắp xếp theo giá</option>
                                         <option value="">Giá tăng dần</option>

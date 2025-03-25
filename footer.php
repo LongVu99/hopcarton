@@ -44,7 +44,7 @@
                 <h3 class="text-white mt-3">BẢN QUYỀN - BẢO MẬT</h3>
                 <div class="d-flex align-items-center">
                     <img src="images/logoSaleNoti.png" alt="">
-                    <img src="images/dmca.png" alt="" height="auto">
+                    <img src="images/dmca.png" alt="">
                 </div>
             </div>
         </div>
