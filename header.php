@@ -140,7 +140,7 @@
             </div>
         </div>
         <!-- Menu mobile -->
-        <div class="menu-mobi bg-green">
+        <div class="menu-mobi bg-green d-block d-lg-none">
             <ul class="d-flex align-items-center justify-content-center">
                 <li class="text-center fs-30 w-25"><a href="#" class="d-inline-flex py-3 px-2 w-100 text-white align-items-center justify-content-center position-relative" onclick="toggleModal(true)">Menu</a></li>
                 <li class="text-center fs-30 w-25"><a href="#" class="d-inline-flex py-3 px-2 w-100 text-white align-items-center justify-content-center position-relative">Icon Lượt thích</a></li>
