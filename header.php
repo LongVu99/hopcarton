@@ -50,14 +50,13 @@
                                     </a>
                                 </div>
                                 <div class=" content-top-bar d-none d-lg-block">
-                                    <a class="text-warning " href="">
+                                    <a class="text-warning " href="archive.php">
                                         <span class="ms-1 fs-15 fw-500">Blog</span>
                                     </a>
                                 </div>
                                 <div class="">
                                     <a class="cart text-white ">
                                         <span class="ms-1 fs-15 fw-500">Liên hệ</span>
-
                                     </a>
                                 </div>
                             </div>
@@ -69,8 +68,8 @@
 
         <!-- Main Menu -->
         <div class="menu position-relative">
-            <div class=" container d-md-none d-lg-flex justify-content-between align-items-center">
-                <div class="menu-wrap d-flex align-items-center">
+            <div class=" container d-md-none d-lg-block">
+                <div class="menu-wrap d-flex align-items-center justify-content-between">
                     <ul>
                         <li>
                             <a href="index.php">
@@ -80,7 +79,7 @@
                     </ul>
                     <ul>
                         <li>
-                            <a href="#" class="fw-700 text-gray">HỘP CARTON</a>
+                            <a href="archive-product.php" class="fw-700 text-gray">HỘP CARTON</a>
                             <ul>
                                 <li><a href="#">Hộp carton lớn</a></li>
                                 <li><a href="#">Hộp carton lớn</a></li>
@@ -99,69 +98,44 @@
                         <li>
                             <a href="#" class="fw-700 text-gray">XỐP CHỐNG SỐC</a>
                             <ul>
-                                <li>
-                                    <a href="#">GIỚI THIỆU</a>
-                                </li>
-                                <li>
-                                    <a href="#">HỒ SƠ NĂNG LỰC</a>
-                                </li>
-                                <li>
-                                    <a href="#">LỜI MỜI HỢP TÁC</a>
-                                </li>
+                                <li><a href="#">Thùng carton lớn</a></li>
+                                <li><a href="#">Thùng carton 7 lớp</a></li>
+                                <li><a href="#">Thùng carton 5 lớp</a></li>
                             </ul>
                         </li>
                         <li><a href="#" class="fw-700 text-gray">BĂNG KEO</a>
-                            <ul>
-                                <li>
-                                    <a href="#">GIỚI THIỆU</a>
-                                </li>
-                                <li>
-                                    <a href="#">HỒ SƠ NĂNG LỰC</a>
-                                </li>
-                                <li>
-                                    <a href="#">LỜI MỜI HỢP TÁC</a>
-                                </li>
+                        <ul>
+                                <li><a href="#">Thùng carton lớn</a></li>
+                                <li><a href="#">Thùng carton 7 lớp</a></li>
+                                <li><a href="#">Thùng carton 5 lớp</a></li>
                             </ul>
                         </li>
 
                         <li>
                             <a href="#" class="fw-700 text-gray">MÀNG BE</a>
                             <ul>
-                                <li>
-                                    <a href="#">FACEBOOK</a>
-                                </li>
-                                <li>
-                                    <a href="#">ZALO</a>
-                                </li>
-                                <li>
-                                    <a href="#">TIKTOK</a>
-                                </li>
-                                <li>
-                                    <a href="#">INSTAGRAM</a>
-                                </li>
+                                <li><a href="#">Thùng carton lớn</a></li>
+                                <li><a href="#">Thùng carton 7 lớp</a></li>
+                                <li><a href="#">Thùng carton 5 lớp</a></li>
                             </ul>
                         </li>
                         <li><a href="#" class="fw-700 text-gray">IN ẤN THEO YÊU CẦU</a></li>
                         <li><a href="#" class="fw-700 text-gray">BÁO GIÁ</a></li>
-                        <li>
-                            <img src="" alt="">
-                        </li>
-                        <li>
-                            <img src="" alt="">
-                        </li>
+
                     </ul>
+                    <div class="d-flex gap-5 icon-cart-heart">
+                        <li>
+                            <img src="images/heart1.png" alt="" height="25" width="25">
+                            <span class="number-heart position-absolute text-white fs-14 border-radius-50 d-inline-flex align-items-center justify-content-center fw-400">0</span>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/shopping-bag.png" alt="" height="25" width="25"></a>
+                            <span class="numer-cart position-absolute text-white fs-14 border-radius-50 d-inline-flex align-items-center justify-content-center fw-400">0</span>
+                        </li>
+                    </div>
                 </div>
 
-                <div class="d-flex gap-5 icon-cart-heart">
-                    <li>
-                        <img src="images/heart1.png" alt="" height="25" width="25">
-                        <span class="number-heart position-absolute text-white fs-14 border-radius-50 d-inline-flex align-items-center justify-content-center fw-400">0</span>
-                    </li>
-                    <li>
-                        <a href=""><img src="images/shopping-bag.png" alt="" height="25" width="25"></a>
-                        <span class="numer-cart position-absolute text-white fs-14 border-radius-50 d-inline-flex align-items-center justify-content-center fw-400">0</span>
-                    </li>
-                </div>
+
 
             </div>
         </div>

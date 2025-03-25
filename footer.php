@@ -12,7 +12,7 @@
                 <p class="des-footer text-white">Hộp carton chất lượng cao từ Dao Carton, bền bỉ, bảo vệ sản phẩm.
                     Thiết kế đẹp, in ấn đa dạng, nâng tầm thương hiệu.
                     Sẻ chia thành công cùng hộp carton Dao Carton, chọn sự hoàn hảo.</p>
-                <p  class="text-white py-2">Được đại diện bởi:</p>
+                <p  class="text-green py-2">Được đại diện bởi:</p>
                 <strong class="text-white  fs-20">Công Ty TNHH Sản Xuất Thương Mại Dịch Vụ Tổng Hợp Dao CARTON</strong>
                 <p class="text-white py-2">Mã số thuế: <strong>1800 1002</strong></p>
                 <p class="text-white">Số 83 đường B13 - KDC 91B, Phường An Khánh, Quận Ninh Kiều, Thành phố Cần Thơ</p>
@@ -41,10 +41,10 @@
             <div class="col-sm-6 col-md-6 col-lg-3 mb-3 mb-3 mb-lg-0">
                 <h3  class="text-white">FANPAGE</h3>
                 <img src="images/fanpage-banggo.vn (1).jpg" alt="">
-                <h3 class="text-white">BẢN QUYỀN - BẢO MẬT</h3>
+                <h3 class="text-white mt-3">BẢN QUYỀN - BẢO MẬT</h3>
                 <div class="d-flex align-items-center">
                     <img src="images/logoSaleNoti.png" alt="">
-                    <img src="images/dmca.png" alt="" height="auto">
+                    <img src="images/dmca.png" alt="">
                 </div>
             </div>
         </div>
@@ -55,30 +55,7 @@
 </footer>
 
 <section class="btn-fixed-wrap position-fixed">
-    <div class="zalo position-relative">
-        <div class="hotline-bg position-relative"></div>
-        <div class="hotline-icon position-absolute">
-            <a href="tel:0889736889" title="Hotline" class="btn-fixed position-absolute">
-                <img src="images/zalo-fixed.png" alt="" class="object-fit-cover">
-            </a>
-        </div>
-    </div>
-    <div class="phone position-relative">
-        <div class="hotline-bg position-relative"></div>
-        <div class="hotline-icon position-absolute">
-            <a href="tel:0889736889" title="Hotline" class="btn-fixed position-absolute">
-                <img src="images/phone-fixed.png" alt="" class="object-fit-cover">
-            </a>
-        </div>
-    </div>
-    <div class="messenger position-relative">
-        <div class="hotline-bg position-relative"></div>
-        <div class="hotline-icon position-absolute">
-            <a href="tel:0889736889" title="Hotline" class="btn-fixed position-absolute">
-                <img src="images/messenger-fixed.png" alt="" class="object-fit-cover">
-            </a>
-        </div>
-    </div>
+   
     <div class="back-to-top text-center mt-2 visibility-hidden opacity-0">
         <a href="javascript:;">
             <img src="icons/to-top.svg" alt="">

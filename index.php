@@ -52,12 +52,12 @@
                             </div>
                             <div class="img-share-r col-lg-6 col-7">
                                 <iframe title="" allowfullscreen style="border:none;" width="500" height="500" src="https://www.pacdora.com/fr/share?filter_url=ps74k0s0gx"></iframe>
-                                <div class="box-text-share">
+                                <div class="box-text-share position-relative overflow-hidden">
                                     <div class="text-share-slider position-absolute">
-                                        <p class="fs-28 fs-sm-20 text-green d-block">Tiếp nhận yêu cầu và hỗ trợ tận tâm</p>
-                                        <p class="fs-28 fs-sm-20 text-green d-block">Chất lượng sản phẩm hàng đầu</p>
-                                        <p class="fs-28 fs-sm-20 text-green d-block">Sản xuất trực tiếp tại xưởng</p>
-                                        <p class="fs-28 fs-sm-20 text-green d-block">Giao hàng tận nơi nhanh chóng</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Tiếp nhận yêu cầu và hỗ trợ tận tâm</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Chất lượng sản phẩm hàng đầu</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Sản xuất trực tiếp tại xưởng</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Giao hàng tận nơi nhanh chóng</p>
                                     </div>
                                 </div>
                             </div>
@@ -72,27 +72,27 @@
                             <h4 class="text-white m-0 py-4">QUY TRÌNH ĐẶT IN HỘP CARTON THEO YÊU CẦU</h4>
                         </div>
                         <div class="produce-step row gx-0">
-                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 pb-1 pt-4 py-lg-4 d-grid place-items-center gap-4">
                                 <img src="images/icon-research-9468.webp" alt="">
                                 <p class="text-white fs-18 fw-700">TIẾP NHẬN <br> YÊU CẦU</p>
                             </div>
-                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 pb-1 pt-4 py-lg-4 d-grid place-items-center gap-4">
                                 <img src="images/icon-design-9787.webp" alt="">
                                 <p class="text-white fs-18 fw-700">THIẾT KẾ <br> BÁO GIÁ</p>
                             </div>
-                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 pb-1 pt-4 py-lg-4 d-grid place-items-center gap-4">
                                 <img src="images/icon-custome-243.webp" alt="">
                                 <p class="text-white fs-18 fw-700">KÝ KẾT <br> HỢP ĐỒNG</p>
                             </div>
-                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 py-lg-4 d-grid place-items-center gap-4">
                                 <img src="images/laser-marking-1-8579.webp" alt="">
                                 <p class="text-white fs-18 fw-700">SẢN XUẤT <br> IN ẤN</p>
                             </div>
-                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 py-lg-4 d-grid place-items-center gap-4">
                                 <img src="images/san-pham-4405.webp" alt="">
                                 <p class="text-white fs-18 fw-700">GIAO HÀNG <br> TẬN NƠI</p>
                             </div>
-                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 d-grid place-items-center gap-4">
+                            <div class="col-4 col-lg-2 col-md-4 img-produce px-3 py-4 py-lg-4 d-grid place-items-center gap-4">
                                 <img src="images/icon-support-7788.webp" alt="">
                                 <p class="text-white fs-18 fw-700">HỖ TRỢ <br> 8h / 6d</p>
                             </div>
@@ -115,27 +115,27 @@
                                 <h4 class="fs-30 fs-sm-22">Những sản phẩm của Hộp Carton Đóng Hàng Giá Rẻ • Dao Carton</h4>
                             </div>
                             <div class="produce-step row gx-0">
-                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-1.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Hộp Carton</p>
                                 </div>
-                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-2.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Thùng Carton</p>
                                 </div>
-                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-3.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Xốp Chống Sốc</p>
                                 </div>
-                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-4.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Băng Keo</p>
                                 </div>
-                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-5.webp" alt="">
                                     <p class="text-green fs-18 mt-2">Màng PE</p>
                                 </div>
-                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-4">
+                                <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-6.webp" alt="">
                                     <p class="text-green fs-18 mt-2">In Ấn Theo Yêu Cầu</p>
                                 </div>
@@ -193,22 +193,22 @@
             <section class="section box-register text-center my-5">
                 <div class=" content-form-register">
                     <div class=" bg-content-register py-5">
-                        <div class="container">
+                        <div class="container pb-4">
                             <div class="content-register">
-                                <p class="text-white fs-20 fs-sm-16">Chúng tôi sẽ chủ động kết nối đến bạn</p>
-                                <h2 class="fs-40 text-white fs-sm-26">Hãy đăng ký hội viên nhà Dao Carton</h2>
-                                <p class="text-white fs-30 fs-sm-20">để được sự ưu tiên đặc biệt nhất <span class="text-black">và nhiều ưu đãi tốt nhất</span>!</p>
+                                <p class="text-white fs-20 fs-sm-16 mt-5 pb-2">Chúng tôi sẽ chủ động kết nối đến bạn</p>
+                                <h2 class="fs-40 text-white fs-sm-26 m-0">Hãy đăng ký hội viên nhà Dao Carton</h2>
+                                <p class="text-white fs-30 fs-sm-20 pb-3">để được sự ưu tiên đặc biệt nhất <span class="text-black">và nhiều ưu đãi tốt nhất</span>!</p>
                             </div>
                             <div class="form-register">
                                 <form action="" class="">
-                                    <input type="text" placeholder="Số điện thoại kết nối Zalo..." class="py-3 px-5">
+                                    <input type="text" placeholder="Số điện thoại kết nối Zalo..." class="py-3 px-5 border-radius-50">
                                 </form>
                             </div>
-                            <button class="btn btn-register mt-3 py-3 px-5 fs-20 text-white fw-700 border-radius-50"><img src="IMAGES/sign-in.png" alt="" width="20" height="auto"> ĐĂNG KÝ HỘI VIÊN</button>
+                            <button class="btn btn-register mt-3 py-3 px-5 fs-20 fs-sm-18 text-white fw-700 border-radius-50"><a href="#" class="text-white d-flex align-items-start gap-1"><img src="images/sign-in.png" alt="" width="20" height="auto"> ĐĂNG KÝ HỘI VIÊN</a></button>
                         </div>
                     </div>
                     <div class="achievements py-3">
-                        <div class="container">
+                        <div class="container gx-0">
                             <div class="row gx-0">
                                 <div class=" col-6 col-lg-3 p-3 achievements-content">
                                     <img src="images/icon-achievements-8887.webp" alt="">
@@ -330,7 +330,7 @@
                     <h3 class="fs-28">ĐỐI TÁC CHIẾN LƯỢC</h3>
                 </div>
                 <div class="img-brand-carton">
-                    <div class="container">
+                    <div class="container d-grid d-lg-block d-grid">
                         <img src="images/brand.webp" alt="">
                         <img src="images/brand1.webp" alt="">
                         <img src="images/brand2.webp" alt="">
@@ -358,7 +358,7 @@
                                 Chúng tôi cam kết mang lại cho bạn sự hài lòng nhất có thể!</p>
                         </div>
                         <div class="col-12 col-lg-4 d-block align-items-center justify-content-center d-lg-flex">
-                            <button class="text-green py-3 px-4 fs-20 border-radius-50"><img src="" alt=""> Liên hệ với chúng tôi</button>
+                            <button class=" py-3 px-4 fs-20 border-radius-50"><a href="" class="text-green d-flex align-items-start gap-2 fw-700"><img src="images/pen.png" alt="" width="20" height="auto"> Liên hệ với chúng tôi</a></button>
                         </div>
                     </div>
                 </div>

@@ -4,12 +4,12 @@
     </div>
     <div class="categories-archive">
         <ul>
-            <li><a href="#" class="p-3 d-inline-block text-white fs-16 w-100">Hộp Carton</a></li>
-            <li><a href="#" class="p-3 d-inline-block text-white fs-16 w-100">Thùng Carton</a></li>
-            <li><a href="#" class="p-3 d-inline-block text-white fs-16 w-100">Xốp chống sốc</a></li>
-            <li><a href="#" class="p-3 d-inline-block text-white fs-16 w-100">Băng keo</a></li>
-            <li><a href="#" class="p-3 d-inline-block text-white fs-16 w-100">Màng FE</a></li>
-            <li><a href="#" class="p-3 d-inline-block text-white fs-16 w-100">In ấn theo yêu cầu</a></li>
+            <li><a href="#" class="p-3 d-inline-block text-white fs-18 w-100">Hộp Carton</a></li>
+            <li><a href="#" class="p-3 d-inline-block text-white fs-18 w-100">Thùng Carton</a></li>
+            <li><a href="#" class="p-3 d-inline-block text-white fs-18 w-100">Xốp chống sốc</a></li>
+            <li><a href="#" class="p-3 d-inline-block text-white fs-18 w-100">Băng keo</a></li>
+            <li><a href="#" class="p-3 d-inline-block text-white fs-18 w-100">Màng FE</a></li>
+            <li><a href="#" class="p-3 d-inline-block text-white fs-18 w-100">In ấn theo yêu cầu</a></li>
         </ul>
     </div>
     <div class="post-list mt-4">

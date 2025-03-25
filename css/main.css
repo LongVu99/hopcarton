@@ -20,11 +20,11 @@
     z-index: 99999; 
 }
 .menu.fixed {
-    position: fixed; /* Đặt menu cố định khi cuộn trang */
+    position: fixed;
     top: 0;
     width: 100%;
-    animation: slide-down .8s ease; /* Hiệu ứng khi menu nhảy lên */
-    border-bottom: 3px solid; /* Độ dày border */
+    animation: slide-down .8s ease;
+    border-bottom: 3px solid;
     border-image-source: linear-gradient(90deg, #26ace2 0%, #e30a8d 33.333%, #f8ef22 66.6666%, #58585a 100%);
     border-image-slice: 1;
 }
@@ -92,6 +92,9 @@ body.modal-open {
 .text-gray {
     color:#444;
 }
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
 .border-radius-50 {
     border-radius: 50px;
 }
@@ -132,8 +135,6 @@ body.modal-open {
 }
 .box-text-share {
     height: 40px;
-    overflow: hidden;
-    position: relative;
 }
 .box-share {
     background: #c7ddd3;
@@ -141,52 +142,22 @@ body.modal-open {
 .text-share-slider p {
     height: 40px;
     line-height: 40px;
-    text-decoration: none;
 }
 .text-share-slider {
-    animation: scrollText 9s ease-in-out(9);
-
+    animation: scrollText 12s infinite;
 }
 @keyframes scrollText {
-    0% {
-        transform: translateY(0);
-    }
-
-    11.1% {
-        transform: translateY(-40px);
-    }
-
-    22.2% {
-        transform: translateY(-80px);
-    }
-
-    33.3% {
-        transform: translateY(-120px);
-    }
-
-    44.4% {
-        transform: translateY(-160px);
-    }
-
-    55.5% {
-        transform: translateY(-200px);
-    }
-
-    66.6% {
-        transform: translateY(-160px);
-    }
-
-    77.7% {
-        transform: translateY(-120px);
-    }
-
-    88.8% {
-        transform: translateY(-80px);
-    }
-
-    100% {
-        transform: translateY(-40px);
-    }
+            0% { transform: translateY(0); }
+            10% { transform: translateY(-50px); }
+            20% { transform: translateY(-100px); }
+            30% { transform: translateY(-150px); }
+            40% { transform: translateY(-200px); }
+            50% { transform: translateY(-250px); }
+            60% { transform: translateY(-200px); }
+            70% { transform: translateY(-150px); }
+            80% { transform: translateY(-100px); }
+            90% { transform: translateY(-50px); }
+            100% { transform: translateY(0px); }
 }
 .box-produce {
     background-image: linear-gradient(90deg, #b87f32 0%, #006e3e 50%, #22aa6f 100%);
@@ -277,6 +248,9 @@ body.modal-open {
 .list-product-archive {
     grid-template-columns: repeat(4, 1fr);
 }
+.list-product-related {
+    grid-template-columns: repeat(5, 1fr);
+}
 .categories-archive li a {
     background-color: #016e3f;
 }
@@ -306,20 +280,46 @@ body.modal-open {
 .btn-feadback a{
     background-color: #ffc107;
 }
+.product-detail-right .info-product {
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+.button-quantity {
+    border: 1px solid #E5EEFC;
+}
+
+.text-animation {
+    animation: blinkcolor 1s infinite;
+}
+@keyframes blinkcolor {
+    0% { color: #ff1d1d; } 
+    50% { color: #016e3f;  } 
+    100% { color: #ff1d1d;  } 
+}
 @media (max-width: 1024px) {
     .list-product-bestseller,
     .list-product-new,
-    .list-product-archive {
+    .list-product-archive,
+    .img-brand-carton .container,
+    .list-product-related {
         grid-template-columns: repeat(4, 1fr);
+    }
+    .img-produce:nth-of-type(n+4) {
+        border-top: 1px solid rgb(255 255 255 / 20%);
+    }
+    .achievements-content:nth-of-type(n+3){
+        border-top: 1px solid rgb(255 255 255 / 20%);
     }
 }
 
 @media (max-width: 767px) {
     .list-product-bestseller,
     .list-product-new,
-    .list-product-archive {
+    .list-product-archive,
+    .img-brand-carton .container,
+    .list-product-related {
         grid-template-columns: repeat(3, 1fr);
     }
+    
 }
 @media (max-width: 360px) {
     .list-product-bestseller,

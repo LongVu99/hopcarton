@@ -397,9 +397,7 @@ h1, h2, h3, h4, h5,h6 {
     outline: none;
     background: rgb(0 0 0 / 50%);
 }
-.home-page .slick-track {
-    padding: 15px 0;
-}
+
 .home-page .slick-dots {
     display: none!important;
 }
@@ -458,9 +456,6 @@ header {
 }
 
 /* Main Menu =====================================*/
-.menu .menu-wrap{
-    gap: 30px;
-}
 
 .menu ul li {
     padding: 10px 0;
