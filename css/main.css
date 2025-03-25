@@ -295,7 +295,8 @@
 @media (max-width: 767px) {
     .list-product-bestseller,
     .list-product-new,
-    .list-product-archive {
+    .list-product-archive,
+    .img-brand-carton .container {
         grid-template-columns: repeat(3, 1fr);
     }
     
