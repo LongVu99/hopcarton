@@ -155,6 +155,7 @@
                 </div>
             </div>
         </div>
+        <div class="paging text-center my-5">Đây là paging</div>
     </div>
 </main>
 
