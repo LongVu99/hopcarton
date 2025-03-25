@@ -50,7 +50,7 @@
                                     </a>
                                 </div>
                                 <div class=" content-top-bar d-none d-lg-block">
-                                    <a class="text-warning " href="">
+                                    <a class="text-warning " href="archive.php">
                                         <span class="ms-1 fs-15 fw-500">Blog</span>
                                     </a>
                                 </div>
