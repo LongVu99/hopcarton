@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5,h6 {
     border-radius: 5px!important;
 }
 .brands li img:hover,
-.box-feedback:hover img {
+.box-feedback:hover .zoom-out {
     transform: scale(1.1);
 }
 .banner-box-active img {
