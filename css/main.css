@@ -46,6 +46,9 @@
 .text-gray {
     color:#444;
 }
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
 .border-radius-50 {
     border-radius: 50px;
 }
@@ -259,6 +262,21 @@
 }
 .btn-feadback a{
     background-color: #ffc107;
+}
+.product-detail-right .info-product {
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+.button-quantity {
+    border: 1px solid #E5EEFC;
+}
+
+.text-animation {
+    animation: blinkcolor 1s infinite;
+}
+@keyframes blinkcolor {
+    0% { color: #ff1d1d; } 
+    50% { color: #016e3f;  } 
+    100% { color: #ff1d1d;  } 
 }
 @media (max-width: 1024px) {
     .list-product-bestseller,

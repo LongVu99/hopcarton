@@ -80,7 +80,7 @@
                     </ul>
                     <ul>
                         <li>
-                            <a href="#" class="fw-700 text-gray">HỘP CARTON</a>
+                            <a href="archive-product.php" class="fw-700 text-gray">HỘP CARTON</a>
                             <ul>
                                 <li><a href="#">Hộp carton lớn</a></li>
                                 <li><a href="#">Hộp carton lớn</a></li>

@@ -88,29 +88,29 @@
                                 </div>
                                 <div class="col-12 col-lg-7">
                                     <div class="product-detail-right">
-                                        <h2 class="fs-22 fw-700">Hộp carton 10x6x6 cm giá rẻ </h2>
-                                        <div class="text-detail">
-                                            <p>Giảm sốc <span class="fs-24 fw-700"> 33% </span>nhanh tay đặt hàng ngay kẻo lỡ hết hàng</p>
+                                        <h2 class="fs-22 fw-700 info-product m-0 p-2">Hộp carton 10x6x6 cm giá rẻ </h2>
+                                        <div class="text-detail info-product py-2">
+                                            <p class="text-animation">Giảm sốc <span class="fs-24 fw-700"> 33% </span>nhanh tay đặt hàng ngay kẻo lỡ hết hàng</p>
                                         </div>
-                                        <div class="text-detail row">
-                                            <span class="col-2"><img src="" alt=""> SKU: </span>
-                                            <span class="col-10 fw-700">HOP1066</span>
+                                        <div class="text-detail info-product row py-2">
+                                            <span class="col-3 d-flex align-items-start gap-1"><img src="images/qr-code.png" alt="" width="15" height="auto"> SKU: </span>
+                                            <span class="col-9 fw-700 p-0">HOP1066</span>
                                         </div>
-                                        <div class="text-detail row align-items-center">
-                                            <span class="col-2"><img src="" alt=""> Giá bán: </span>
-                                            <span class="col-10 text-green fs-24">800đ <span class="fs-16">1.200đ</span></span>
+                                        <div class="text-detail row align-items-center info-product py-2">
+                                            <span class="col-3 d-flex align-items-start gap-1"><img src="images/dollar-symbol.png" alt="" width="15" height="auto"> Giá bán: </span>
+                                            <span class="col-9 text-green fs-24 p-0">800đ <span class="fs-16 text-gray text-decoration-line-through">1.200đ</span></span>
                                         </div>
-                                        <div class="text-detail">
+                                        <div class="text-detail info-product py-2">
                                             <span><img src="" alt="">Mô tả: </span>
                                             <p class="fs-18"><strong>Hộp carton 10x6x6 cm giá rẻ</strong> là lựa chọn hoàn hảo cho việc đóng gói các sản phẩm nhỏ gọn, nhẹ nhàng.</p>
                                         </div>
-                                        <div class=" d-flex gap-5">
+                                        <div class="info-product d-flex gap-5 py-2">
                                             <div class="button-quantity d-flex">
-                                                <div class="button minus d-flex justify-content-center">
+                                                <div class="button minus d-flex justify-content-center px-3 py-1">
                                                     <span>-</span>
                                                 </div>
                                                 <input type="text" value="1" min="1" max="999" class="text-center fs-14 p-0">
-                                                <div class="button plus d-flex justify-content-center">
+                                                <div class="button plus d-flex justify-content-center px-3 py-1">
                                                     <span class="d-inline-block">+</span>
                                                 </div>
                                             </div>
@@ -118,13 +118,13 @@
                                                 <p class="m-0"><strong>100</strong> Sản phẩm sẵn sàng giao</p>
                                             </div>
                                         </div>
-                                        <div class="button-product-detail mt-4 d-flex gap-2">
+                                        <div class="button-product-detail info-product mt-4 d-flex gap-2 py-2">
                                             <div class="btn-add py-3 px-4 text-white fw-700">
-                                                <img src="" alt="">
+                                                <img src="images/add-cart.png" alt="" width="20" height="auto">
                                                 THÊM VÀO GIỎ HÀNG
                                             </div>
                                             <div class="btn-buy py-3 px-4 text-white fw-700">
-                                                <img src="" alt="">
+                                                <img src="images/checklist.png" alt="" width="20" height="auto">
                                                 MUA NGAY
                                             </div>
                                         </div>
@@ -230,7 +230,7 @@
                         </div>
                         <?php include('sidebar.php') ?>
                     </div>
-                    <div class="related-product mt-5">
+                    <div class="related-product my-5">
                         <h3>SẢN PHẨM LIÊN QUAN</h3>
                         <div class=" list-product-archive d-grid gap-3 text-center pt-3">
                             <?php for ($i = 0; $i < 20; $i++) : ?>
@@ -238,7 +238,7 @@
                                     <img src="images/product-bang-dinh.jpg" alt="">
                                     <a href="#" class="fs-16 fw-600 text-line-clamp-2 mb-2 mt-1 text-gray">Băng keo hàng dễ vỡ vàng đen</a>
                                     <p class="discount-price-product text-green fw-700 m-0 fs-18">9.150₫</p>
-                                    <p class="price-product fw-300 fs-15">16.000₫</p>
+                                    <p class="price-product fw-300 fs-15 text-decoration-line-through">16.000₫</p>
                                 </div>
                             <?php endfor; ?>
                         </div>

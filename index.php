@@ -330,7 +330,7 @@
                     <h3 class="fs-28">ĐỐI TÁC CHIẾN LƯỢC</h3>
                 </div>
                 <div class="img-brand-carton">
-                    <div class="container">
+                    <div class="container d-sm-grid d-block">
                         <img src="images/brand.webp" alt="">
                         <img src="images/brand1.webp" alt="">
                         <img src="images/brand2.webp" alt="">
