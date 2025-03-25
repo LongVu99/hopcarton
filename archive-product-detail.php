@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-9 detail-product">
+                        <div class="col-12 col-lg-9 detail-product">
                             <div class="breadcrumb d-flex align-items-center justify-content-between">
                                 <ul class="d-flex">
                                     <li class="d-inline fs-15"><a href="#" class="d-flex align-items-center"><img src="images/house.png" width="20px" height="auto" alt="">Trang chủ</a></li>
@@ -118,14 +118,17 @@
                                                 <p class="m-0"><strong>100</strong> Sản phẩm sẵn sàng giao</p>
                                             </div>
                                         </div>
-                                        <div class="button-product-detail info-product mt-4 d-flex gap-2 py-2">
-                                            <div class="btn-add py-3 px-4 text-white fw-700">
-                                                <img src="images/add-cart.png" alt="" width="20" height="auto">
-                                                THÊM VÀO GIỎ HÀNG
+                                        <div class="button-product-detail info-product mt-2 d-flex gap-2 py-2">
+                                            <div class="btn-add py-3 px-4  fw-700">
+                                                <a href="" class="text-white d-flex align-items-start gap-1"><img src="images/add-cart.png" alt="" width="20" height="auto">
+                                                    THÊM VÀO GIỎ HÀNG
+                                                </a>
                                             </div>
                                             <div class="btn-buy py-3 px-4 text-white fw-700">
-                                                <img src="images/checklist.png" alt="" width="20" height="auto">
-                                                MUA NGAY
+                                                <a href="" class="text-white d-flex align-items-start gap-1">
+                                                    <img src="images/checklist.png" alt="" width="20" height="auto">
+                                                    MUA NGAY
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -150,7 +153,7 @@
                                     <div class="row mt-4">
                                         <div class="col-12">
                                             <div class="row">
-                                                <div class="col-3 text-center">
+                                                <div class="col-12 col-lg-3 col-md-3 text-center">
                                                     <p>Đánh giá trung bình</p>
                                                     <p class="fs-40 text-danger"><strong>0/5</strong></p>
                                                     <div class="d-flex justify-content-center star-feadback">
@@ -162,7 +165,7 @@
                                                     </div>
                                                     <p class="py-2">(0 nhận xét)</p>
                                                 </div>
-                                                <div class="col-5">
+                                                <div class="col-lg-5 col-12 col-md-5">
                                                     <div class="d-flex gap-3 align-items-center">
                                                         <div class="star-number star-feadback d-flex align-items-center">
                                                             <span class="fs-20 fw-700">5</span>
@@ -214,7 +217,7 @@
                                                         <div class="fw-700">0%</div>
                                                     </div>
                                                 </div>
-                                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                                <div class="col-lg-4 col-12 col-md-4 d-flex justify-content-center align-items-center">
                                                     <div class="">
                                                         <p>Chia sẻ nhận xét của bạn</p>
                                                         <div class="btn-feadback btn d-block mt-4">
@@ -232,7 +235,7 @@
                     </div>
                     <div class="related-product my-5">
                         <h3>SẢN PHẨM LIÊN QUAN</h3>
-                        <div class=" list-product-archive d-grid gap-3 text-center pt-3">
+                        <div class=" list-product-related d-grid gap-3 text-center pt-3">
                             <?php for ($i = 0; $i < 20; $i++) : ?>
                                 <div class="list-product pb-2 position-relative">
                                     <img src="images/product-bang-dinh.jpg" alt="">

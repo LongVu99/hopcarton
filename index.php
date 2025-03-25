@@ -52,12 +52,12 @@
                             </div>
                             <div class="img-share-r col-lg-6 col-7">
                                 <iframe title="" allowfullscreen style="border:none;" width="500" height="500" src="https://www.pacdora.com/fr/share?filter_url=ps74k0s0gx"></iframe>
-                                <div class="box-text-share">
+                                <div class="box-text-share position-relative overflow-hidden">
                                     <div class="text-share-slider position-absolute">
-                                        <p class="fs-28 fs-sm-20 text-green d-block">Tiếp nhận yêu cầu và hỗ trợ tận tâm</p>
-                                        <p class="fs-28 fs-sm-20 text-green d-block">Chất lượng sản phẩm hàng đầu</p>
-                                        <p class="fs-28 fs-sm-20 text-green d-block">Sản xuất trực tiếp tại xưởng</p>
-                                        <p class="fs-28 fs-sm-20 text-green d-block">Giao hàng tận nơi nhanh chóng</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Tiếp nhận yêu cầu và hỗ trợ tận tâm</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Chất lượng sản phẩm hàng đầu</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Sản xuất trực tiếp tại xưởng</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Giao hàng tận nơi nhanh chóng</p>
                                     </div>
                                 </div>
                             </div>
