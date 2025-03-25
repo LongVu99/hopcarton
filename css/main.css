@@ -113,6 +113,9 @@ body.modal-open {
     top: 4px;
     left: 0;
 }
+.header .modal .listmenu >li:last-child {
+    border-bottom: none;
+}
 
 @keyframes slide-down {
     from {
