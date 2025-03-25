@@ -120,13 +120,13 @@
                                         </div>
                                         <div class="button-product-detail info-product mt-2 d-flex gap-2 py-2">
                                             <div class="btn-add py-3 px-4  fw-700">
-                                                <a href="" class="text-white d-flex align-items-start gap-1"><img src="images/add-cart.png" alt="" width="20" height="auto">
+                                                <a href="" class="text-white d-flex align-items-end gap-1"><img src="images/add-cart.png" alt="" width="25" height="auto">
                                                     THÊM VÀO GIỎ HÀNG
                                                 </a>
                                             </div>
                                             <div class="btn-buy py-3 px-4 text-white fw-700">
-                                                <a href="" class="text-white d-flex align-items-start gap-1">
-                                                    <img src="images/checklist.png" alt="" width="20" height="auto">
+                                                <a href="" class="text-white d-flex align-items-end gap-1">
+                                                    <img src="images/checklist.png" alt="" width="25" height="auto">
                                                     MUA NGAY
                                                 </a>
                                             </div>
