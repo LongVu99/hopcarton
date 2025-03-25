@@ -135,6 +135,11 @@ $('.back-menu-level2').click(function(){
     $(this).parents('.menu-level3').removeClass('active');
 })
 
+function toggleModal(show) {
+    document.getElementById("modal").style.display = show ? "flex" : "none";
+    document.body.classList.toggle("modal-open", show);
+}
+
 // window scroll 
 var header = $('header');
 $(window).scroll(function () {
