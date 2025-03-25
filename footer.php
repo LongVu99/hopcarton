@@ -50,8 +50,8 @@
         </div>
 
     </div>
-    <div class="text-center mt-3 copy-right bg-green">
-        <p class="fs-13 text-white">© 2025 <b>Hupuna Group</b>. All rights reserved.</p>
+    <div class="text-center mt-3 copy-right bg-green py-3">
+        <p class="fs-13 text-white m-0">© 2025 <b>Hupuna Group</b>. All rights reserved.</p>
     </div>
 </footer>
 
