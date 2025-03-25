@@ -18,7 +18,7 @@
 
 
     <link rel="stylesheet" href="css/base-style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style-m.css">
     <script src="js/jquery.min.js"></script>
