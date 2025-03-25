@@ -52,12 +52,12 @@
                             </div>
                             <div class="img-share-r col-lg-6 col-7">
                                 <iframe title="" allowfullscreen style="border:none;" width="500" height="500" src="https://www.pacdora.com/fr/share?filter_url=ps74k0s0gx"></iframe>
-                                <div class="box-text-share position-relative overflow-hidden">
+                                <div class="box-text-share position-relative overflow-hidden mt-3">
                                     <div class="text-share-slider position-absolute">
-                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Tiếp nhận yêu cầu và hỗ trợ tận tâm</p>
-                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Chất lượng sản phẩm hàng đầu</p>
-                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Sản xuất trực tiếp tại xưởng</p>
-                                        <p class="fs-28 fs-sm-20 text-green d-block p-0">Giao hàng tận nơi nhanh chóng</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0 fw-700">Tiếp nhận yêu cầu và hỗ trợ tận tâm</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0 fw-700">Chất lượng sản phẩm hàng đầu</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0 fw-700">Sản xuất trực tiếp tại xưởng</p>
+                                        <p class="fs-28 fs-sm-20 text-green d-block p-0 fw-700">Giao hàng tận nơi nhanh chóng</p>
                                     </div>
                                 </div>
                             </div>
@@ -117,27 +117,27 @@
                             <div class="produce-step row gx-0">
                                 <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-1.webp" alt="">
-                                    <p class="text-green fs-18 mt-2">Hộp Carton</p>
+                                    <p class="fs-18 mt-2"><a href="" class="text-green">Hộp Carton</a> </p>
                                 </div>
                                 <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-2.webp" alt="">
-                                    <p class="text-green fs-18 mt-2">Thùng Carton</p>
+                                    <p class="fs-18 mt-2"><a href="" class="text-green">Thùng Carton</a></p>
                                 </div>
                                 <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-3.webp" alt="">
-                                    <p class="text-green fs-18 mt-2">Xốp Chống Sốc</p>
+                                    <p class="fs-18 mt-2"><a href="" class="text-green">Xốp Chống Sốc</a></p>
                                 </div>
                                 <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-4.webp" alt="">
-                                    <p class="text-green fs-18 mt-2">Băng Keo</p>
+                                    <p class="fs-18 mt-2"><a href="" class="text-green">Băng Keo</a></p>
                                 </div>
                                 <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-5.webp" alt="">
-                                    <p class="text-green fs-18 mt-2">Màng PE</p>
+                                    <p class="fs-18 mt-2"><a href="" class="text-green">Màng PE</a></p>
                                 </div>
                                 <div class="col-lg-2 categories-carton p-3 col-md-4 col-6 col-sm-4">
                                     <img src="images/cate-6.webp" alt="">
-                                    <p class="text-green fs-18 mt-2">In Ấn Theo Yêu Cầu</p>
+                                    <p class="fs-18 mt-2"><a href="" class="text-green">In Ấn Theo Yêu Cầu</a></p>
                                 </div>
                             </div>
                         </div>
@@ -245,82 +245,30 @@
 
                     <div class="feedback wrap-content-feedback custom_slider d-flex w-100 flex-wrap row gx-0" data-slides-to-show="3"
                         data-slides-to-scroll="1" data-slides-to-show-tablet="2" data-slides-to-show-mobile="1">
+                        <?php for($i = 0; $i < 6; $i++) : ?>
                         <div class="col-4 box-feedback-carton box-feedback position-relative">
                             <p class="text-line-clamp-3 ps-3 text-justify fs-15">“Mình đã đặt hàng ở đây rất nhiều, từ thùng carton, xốp chống sốc,
                                 cả băng keo, lần nào cũng được hỗ trợ rất nhiệt tình.
                                 Rất hài lòng về dịch vụ cũng như chất lượng sản phẩm của Dao Carton”
                             </p>
-                            <ul class="row gx-0  pt-3">
+                            <ul class="row gx-0  pt-3 d-flex align-items-center">
                                 <li class="col-3">
-                                    <img src="images/img-feadback.jpg" alt="">
+                                    <img src="images/img-feadback.jpg" alt="" width="60" height="auto" class="zoom-out">
                                 </li>
                                 <li class="col-9 p-0">
                                     <h4 class="text-line-clamp-1 fs-18 m-0">Mrs. Hoàng Thu Thảo</h4>
-                                    <p class="text-line-clamp-1">Chủ cửa hàng bánh kẹo</p>
+                                    <div class="d-flex align-items-center">
+                                        <img class="star" src="./icons/starblue.svg" alt="star" width="20" height="auto">
+                                        <img class="star" src="./icons/starblue.svg" alt="star" width="20" height="auto">
+                                        <img class="star" src="./icons/starblue.svg" alt="star" width="20" height="auto">
+                                        <img class="star" src="./icons/starblue.svg" alt="star" width="20" height="auto">
+                                        <img class="star" src="./icons/star.svg" alt="star" width="20" height="auto">
+                                    </div>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-4 box-feedback-carton box-feedback position-relative">
-                            <p class="text-line-clamp-3 ps-3 text-justify fs-15">“Mình bán áo thun nên cần hộp caron đóng gói áo cho khách.
-                                Được bạn giới thiệu Dao Carton nên trải nghiệm sản phẩm ở đây và quyết định sẽ gắn bó lâu dài.
-                                Ưu đãi rất nhiều khi mình mua số lượng lớn ”
-                            </p>
-                            <ul class="row gx-0  pt-3">
-                                <li class="col-3">
-                                    <img src="images/img-feadback.jpg" alt="">
-                                </li>
-                                <li class="col-9 p-0">
-                                    <h4 class="text-line-clamp-1 fs-18 m-0">Mrs. Hương Nguyễn</h4>
-                                    <p class="text-line-clamp-1">Chủ shop quà lưu niệm</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-4 box-feedback-carton box-feedback  position-relative">
-                            <p class="text-line-clamp-3 ps-3 text-justify fs-15">“Mua thử Xốp chống sốc tại Dao Carton một lần.
-                                Không ngờ giá rẻ mà xốp lại chất lượng như vậy. Sẽ mua thử thùng carton, và băng keo ở đây nữa.
-                                Chắc sẽ gắn bó lâu dài vì giúp mình tối ưu rất nhiều chi phí.”
-                            </p>
-                            <ul class="row gx-0  pt-3">
-                                <li class="col-3">
-                                    <img src="images/img-feadback.jpg" alt="">
-                                </li>
-                                <li class="col-9 p-0">
-                                    <h4 class="text-line-clamp-1 fs-18 m-0">Mrs. Lan Hoàng</h4>
-                                    <p class="text-line-clamp-1">Chủ shop mỹ phẩm</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-4 box-feedback-carton box-feedback position-relative">
-                            <p class="text-line-clamp-3 ps-3 text-justify fs-15">“Tôi rất ấn tượng về khả năng thiết kế linh hoạt của
-                                Hupuna.
-                                Họ có thể tùy chỉnh kích thước, hình dạng và màu sắc của hộp carton theo bất kỳ yêu
-                                cầu nào.”
-                            </p>
-                            <ul class="row gx-0  pt-3">
-                                <li class="col-3">
-                                    <img src="images/img-feadback.jpg" alt="">
-                                </li>
-                                <li class="col-9 p-0">
-                                    <h4 class="text-line-clamp-1 fs-18 m-0">Mr. Phạm Hồng Quân</h4>
-                                    <p class="text-line-clamp-1">CEO giao hàng tiết kiệm</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-4 box-feedback-carton box-feedback position-relative">
-                            <p class="text-line-clamp-3 ps-3 text-justify fs-15">“Rất hài lòng về khả năng sản xuất số lượng lớn.
-                                Hupuna có khả năng sản xuất hàng loạt hộp carton trong thời gian ngắn mà không ảnh
-                                hưởng đến chất lượng.”
-                            </p>
-                            <ul class="row gx-0  pt-3">
-                                <li class="col-3">
-                                    <img src="images/img-feadback.jpg" alt="">
-                                </li>
-                                <li class="col-9 p-0">
-                                    <h4 class="text-line-clamp-1 fs-18 m-0">Mr. Lương Duy Hoài</h4>
-                                    <p class="text-line-clamp-1">CEO giao hàng nhanh</p>
-                                </li>
-                            </ul>
-                        </div>
+                        <?php endfor; ?>
+                        
                     </div>
                 </div>
             </section>

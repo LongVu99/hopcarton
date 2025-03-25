@@ -157,19 +157,19 @@
                                                     <p>Đánh giá trung bình</p>
                                                     <p class="fs-40 text-danger"><strong>0/5</strong></p>
                                                     <div class="d-flex justify-content-center star-feadback">
-                                                        <img class="star" src="./icons/star.svg" alt="star">
-                                                        <img class="star" src="./icons/star.svg" alt="star">
-                                                        <img class="star" src="./icons/star.svg" alt="star">
-                                                        <img class="star" src="./icons/star.svg" alt="star">
-                                                        <img class="star" src="./icons/star.svg" alt="star">
+                                                        <img class="star" src="./icons/star.svg" alt="star" width="25" height="auto">
+                                                        <img class="star" src="./icons/star.svg" alt="star" width="25" height="auto">
+                                                        <img class="star" src="./icons/star.svg" alt="star" width="25" height="auto">
+                                                        <img class="star" src="./icons/star.svg" alt="star" width="25" height="auto">
+                                                        <img class="star" src="./icons/star.svg" alt="star" width="25" height="auto">
                                                     </div>
                                                     <p class="py-2">(0 nhận xét)</p>
                                                 </div>
                                                 <div class="col-lg-5 col-12 col-md-5">
                                                     <div class="d-flex gap-3 align-items-center">
-                                                        <div class="star-number star-feadback d-flex align-items-center">
+                                                        <div class="star-number star-feadback d-flex gap-1 align-items-center">
                                                             <span class="fs-20 fw-700">5</span>
-                                                            <img src="./icons/starblue.svg" alt="">
+                                                            <img src="./icons/starblue.svg" alt="" width="20" height="auto">
                                                         </div>
                                                         <div class="line-feabback w-100">
                                                             <span></span>
@@ -177,9 +177,9 @@
                                                         <div class="fw-700">0%</div>
                                                     </div>
                                                     <div class="d-flex gap-3 align-items-center py-1">
-                                                        <div class="star-number star-feadback d-flex align-items-center">
+                                                        <div class="star-number star-feadback d-flex gap-1 align-items-center">
                                                             <span class="fs-20 fw-700">4</span>
-                                                            <img src="./icons/starblue.svg" alt="">
+                                                            <img src="./icons/starblue.svg" alt="" width="20" height="auto">
                                                         </div>
                                                         <div class="line-feabback w-100">
                                                             <span></span>
@@ -187,9 +187,9 @@
                                                         <div class="fw-700">0%</div>
                                                     </div>
                                                     <div class="d-flex gap-3 align-items-center">
-                                                        <div class="star-number star-feadback d-flex align-items-center">
+                                                        <div class="star-number star-feadback d-flex gap-1 align-items-center">
                                                             <span class="fs-20 fw-700">3</span>
-                                                            <img src="./icons/starblue.svg" alt="">
+                                                            <img src="./icons/starblue.svg" alt="" width="20" height="auto">
                                                         </div>
                                                         <div class="line-feabback w-100">
                                                             <span></span>
@@ -197,9 +197,9 @@
                                                         <div class="fw-700">0%</div>
                                                     </div>
                                                     <div class="d-flex gap-3 align-items-center py-1">
-                                                        <div class="star-number star-feadback d-flex align-items-center">
+                                                        <div class="star-number star-feadback d-flex gap-1 align-items-center">
                                                             <span class="fs-20 fw-700">2</span>
-                                                            <img src="./icons/starblue.svg" alt="">
+                                                            <img src="./icons/starblue.svg" alt="" width="20" height="auto">
                                                         </div>
                                                         <div class="line-feabback w-100">
                                                             <span></span>
@@ -207,9 +207,9 @@
                                                         <div class="fw-700">0%</div>
                                                     </div>
                                                     <div class="d-flex gap-3 align-items-center">
-                                                        <div class="star-number star-feadback d-flex align-items-center">
+                                                        <div class="star-number star-feadback d-flex gap-1 align-items-center">
                                                             <span class="fs-20 fw-700">1</span>
-                                                            <img src="./icons/starblue.svg" alt="">
+                                                            <img src="./icons/starblue.svg" alt="" width="20" height="auto">
                                                         </div>
                                                         <div class="line-feabback w-100">
                                                             <span></span>
