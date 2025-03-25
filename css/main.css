@@ -281,7 +281,8 @@
 @media (max-width: 1024px) {
     .list-product-bestseller,
     .list-product-new,
-    .list-product-archive {
+    .list-product-archive,
+    .img-brand-carton .container {
         grid-template-columns: repeat(4, 1fr);
     }
     .img-produce:nth-of-type(n+4) {
