@@ -41,7 +41,7 @@
             <div class="col-sm-6 col-md-6 col-lg-3 mb-3 mb-3 mb-lg-0">
                 <h3  class="text-white">FANPAGE</h3>
                 <img src="images/fanpage-banggo.vn (1).jpg" alt="">
-                <h3 class="text-white">BẢN QUYỀN - BẢO MẬT</h3>
+                <h3 class="text-white mt-3">BẢN QUYỀN - BẢO MẬT</h3>
                 <div class="d-flex align-items-center">
                     <img src="images/logoSaleNoti.png" alt="">
                     <img src="images/dmca.png" alt="" height="auto">
