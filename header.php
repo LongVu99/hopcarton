@@ -99,46 +99,25 @@
                         <li>
                             <a href="#" class="fw-700 text-gray">XỐP CHỐNG SỐC</a>
                             <ul>
-                                <li>
-                                    <a href="#">GIỚI THIỆU</a>
-                                </li>
-                                <li>
-                                    <a href="#">HỒ SƠ NĂNG LỰC</a>
-                                </li>
-                                <li>
-                                    <a href="#">LỜI MỜI HỢP TÁC</a>
-                                </li>
+                                <li><a href="#">Thùng carton lớn</a></li>
+                                <li><a href="#">Thùng carton 7 lớp</a></li>
+                                <li><a href="#">Thùng carton 5 lớp</a></li>
                             </ul>
                         </li>
                         <li><a href="#" class="fw-700 text-gray">BĂNG KEO</a>
-                            <ul>
-                                <li>
-                                    <a href="#">GIỚI THIỆU</a>
-                                </li>
-                                <li>
-                                    <a href="#">HỒ SƠ NĂNG LỰC</a>
-                                </li>
-                                <li>
-                                    <a href="#">LỜI MỜI HỢP TÁC</a>
-                                </li>
+                        <ul>
+                                <li><a href="#">Thùng carton lớn</a></li>
+                                <li><a href="#">Thùng carton 7 lớp</a></li>
+                                <li><a href="#">Thùng carton 5 lớp</a></li>
                             </ul>
                         </li>
 
                         <li>
                             <a href="#" class="fw-700 text-gray">MÀNG BE</a>
                             <ul>
-                                <li>
-                                    <a href="#">FACEBOOK</a>
-                                </li>
-                                <li>
-                                    <a href="#">ZALO</a>
-                                </li>
-                                <li>
-                                    <a href="#">TIKTOK</a>
-                                </li>
-                                <li>
-                                    <a href="#">INSTAGRAM</a>
-                                </li>
+                                <li><a href="#">Thùng carton lớn</a></li>
+                                <li><a href="#">Thùng carton 7 lớp</a></li>
+                                <li><a href="#">Thùng carton 5 lớp</a></li>
                             </ul>
                         </li>
                         <li><a href="#" class="fw-700 text-gray">IN ẤN THEO YÊU CẦU</a></li>
